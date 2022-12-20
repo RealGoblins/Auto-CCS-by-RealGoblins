@@ -1,1 +1,1 @@
-# Auto-CCS-by-RealGoblins
+# Auto-CCS by RealGoblins
