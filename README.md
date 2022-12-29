@@ -16,6 +16,7 @@ This is a Mesa3D software renderer which you'll need if you don't have a GPU.
 ## Configs
 ### Socks5 proxy config
 note: your proxies must support the UDP protocol. Ask your provider before buying to be sure.
+The proxy config is imported from the *Socks5 Proxy* tab in the application
 
 Format:
 ```
@@ -29,6 +30,27 @@ Example:
 ```
 194.114.5.204:1080:root:rgpw
 204.149.2.121:10200
+```
+
+### Bot list config
+The bot list is imported from left section of the application using the top-left import button.
+
+Format:
+```
+{GrowID}:{Password}:{farm config (optional)}
+```
+
+Example: 
+
+```All bots.botfcfg```
+
+```
+AzureBrave47365:YO0C7tdTeR#:bot1.farmcfg
+BananaZero43047:eXgl6pynLg#:bot2.farmcfg
+BraveFire45181:lrLbHGc5vm#:bot3.farmcfg
+DuckGrip80129:Xg3YjIQeI3#:bot4.farmcfg
+LiteLuck19932:UyhhLYtAh9#:bot5.farmcfg
+TinyBrave14332:7ObO8XpkHb#:bot6.farmcfg
 ```
 
 ## Convert rdp to socks5 server
