@@ -69,9 +69,9 @@ Format:
     "webhookBots": "", // <WEBHOOK FOR BOT STATUS>. This is optional. A summary for the progress of all bots will be shown here.
     "webhookEvents": "", // <WEBHOOK FOR BOT EVENTS>. This is optional. Bot events, such as disconnections and profit drops will be logged here.
     "worlds": [ // World|ID
-"testworld1|id", 
-"testworld2|id",
-"testworld3|id"
+        "testworld1|id", 
+        "testworld2|id",
+        "testworld3|id"
     ]
 }
 ```
@@ -92,7 +92,6 @@ Example:
     "webhookBots": "https://discord.com/api/webhooks/1143939598605783012/3C16CrHN3bnx-j8In7X0FskxsvABg6lmqpd5K9ev4QvwX9WAjHQFrxlR5eSRkNTuzOw3Z",
     "webhookEvents": "",
     "worlds": [
-"QOSRPE|10FARM800",
         "2JWCWWHVJJQMYVH5|RGFRM23",
         "5VJKKSM9ULC3OJIM|RGFRM23",
         "FQ55BAZGX8QRR4YS|RGFRM23",
