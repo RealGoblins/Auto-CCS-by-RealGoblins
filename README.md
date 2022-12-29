@@ -54,6 +54,12 @@ TinyBrave14332:7ObO8XpkHb#:bot6.farmcfg
 ```
 
 ### Farm config
+This config is unique to each bot and contains the bot settings, including the world list and storage world name. It can be imported by selecting a bot in the left bot list in the application and clicking *import* in the *Rotation*` tab. The config will be auto-imported if it is included in the [Bot list config](#bot-list-config)
+
+Format:
+```
+
+```
 
 ## Convert rdp to socks5 server
 1. **Disable the firewall** 
