@@ -1,4 +1,4 @@
-# Auto-CCS by RealGoblins (FREE)
+# Auto-CCS by RealGoblins (5 dls)
 
 ## Download
 https://github.com/RealGoblins/Auto-CCS-by-RealGoblins/raw/main/Auto-CCS%20by%20RealGoblins.exe 
@@ -13,6 +13,24 @@ This is a Mesa3D software renderer which you'll need if you don't have a GPU.
 
 # Tutorials
 
+## Configs
+### Socks5 proxy config
+note: your proxies must support the UDP protocol. Ask your provider before buying to be sure.
+
+Format:
+```
+{IP}:{Port}:{Username (optional)}:{Password (optional)}
+```
+
+Example: 
+
+```proxy.proxycfg```
+
+```
+194.114.5.204:1080:root:rgpw
+204.149.2.121:10200
+```
+
 ## Convert rdp to socks5 server
 1. **Disable the firewall** 
 
@@ -22,14 +40,6 @@ This is a Mesa3D software renderer which you'll need if you don't have a GPU.
     * Go to Control Panel > System and Security > Windows Firewall > Turn Windows Firewall on or off.
     * Click Turn off Windows Firewall in **both sections** and then select OK.
     
-    <ins>Linux:</ins>
-    
-    Copy-paste this into the cmd.
-    ```bash
-    sudo systemctl disable firewalld
-    sudo systemctl mask --now firewalld
-    sudo systemctl stop firewalld
-    ```
 2. **Install the socks5 server software**
 
     Note that some large providers, such as azure and digitalocean, are IP blocked by the GT servers and you can't set them up as socks5 servers
@@ -39,7 +49,4 @@ This is a Mesa3D software renderer which you'll need if you don't have a GPU.
     * launch the new ccproxy app. The default socks5 port is 1080
     * (optional) create a username/password in the accounts tab
 
-     <ins>Linux:</ins>
- 
-     Todo
-.
+  
