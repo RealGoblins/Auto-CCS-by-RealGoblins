@@ -54,11 +54,26 @@ TinyBrave14332:7ObO8XpkHb#:bot6.farmcfg
 ```
 
 ### Farm config
-This config is unique to each bot and contains the bot settings, including the world list and storage world name. It can be imported by selecting a bot in the left bot list in the application and clicking *import* in the *Rotation*` tab. The config will be auto-imported if it is included in the [Bot list config](#bot-list-config)
+This config is unique to each bot and contains the bot settings, including the world list and storage world name. It can be imported by selecting a bot in the left bot list in the application and clicking *import* in the *Rotation*` tab. The config will be auto-imported if it is included in the [Bot list config](#bot-list-config). All settings are configurable from the application too.
 
 Format:
-```
-
+```js
+{
+    "autoBan": false, // true or false. This will auto-ban if someone joins the farm. (Only works on wl-farms)
+    "autoBanIgnore": [], // ['Growid1' , 'player2']. Users to ignore when using the auto-ban feature.
+    "autoBuyFromStore": true, // true or false. This will auto-buy from the store and drop to the storage.
+    "autoBuyItem": "world_lock_10_pack", // <the item name in the gt store>. This item will be bought using the earned gems and will be dropped to the storage
+    "autoBuyItemAmount": 1, // 1 or 2. This is the amount of the *autoBuyItem* that will be bought at once.
+    "autoTrash": true, // true or false. This decides whether the bot will auto trash farming drops, such as earth or wind essence
+    "storageWorldName": "YOURSTORAGEWORLDHERE", // <Your storage>.The bot will drop the profit here (seeds + store items). The storage MUST be made of display boxes.
+    "webhookBots": "", // <WEBHOOK FOR BOT STATUS>. This is optional. A summary for the progress of all bots will be shown here.
+    "webhookEvents": "", // <WEBHOOK FOR BOT EVENTS>. This is optional. Bot events, such as disconnections and profit drops will be logged here.
+    "worlds": [ // World|ID
+"testworld1|id", 
+"testworld2|id",
+"testworld3|id"
+    ]
+}
 ```
 
 ## Convert rdp to socks5 server
