@@ -76,6 +76,34 @@ Format:
 }
 ```
 
+Example:
+
+```bot1.farmfcfg```
+
+```json
+{
+    "autoBan": false,
+    "autoBanIgnore": [],
+    "autoBuyFromStore": true,
+    "autoBuyItem": "world_lock_10_pack",
+    "autoBuyItemAmount": 1,
+    "autoTrash": true,
+    "storageWorldName": "hqks71axd3blqnxo3m9",
+    "webhookBots": "https://discord.com/api/webhooks/1143939598605783012/3C16CrHN3bnx-j8In7X0FskxsvABg6lmqpd5K9ev4QvwX9WAjHQFrxlR5eSRkNTuzOw3Z",
+    "webhookEvents": "",
+    "worlds": [
+"QOSRPE|10FARM800",
+        "2JWCWWHVJJQMYVH5|RGFRM23",
+        "5VJKKSM9ULC3OJIM|RGFRM23",
+        "FQ55BAZGX8QRR4YS|RGFRM23",
+        "HUFXGFUAC61TT1NH|RGFRM23",
+        "9HTBVYSFZCGQNCKE|RGFRM23",
+        "MWG4NCGJFJJ4JXPQ|RGFRM23",
+        "8FRJVJ3UGFRVDAZM|RGFRM23"
+    ]
+}
+```
+
 ## Convert rdp to socks5 server
 1. **Disable the firewall** 
 
