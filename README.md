@@ -102,6 +102,16 @@ Example:
     ]
 }
 ```
+## What is a Socks5 proxy?
+A proxy or proxy server is a computer that sits between you and the server. The network data will be sent from your computer and  to the proxy server and then to the actual destination. The target (actual destination) will not know that you sent the data, it only knows that it was sent from the proxy server. 
+Your IP is `X` and you have three proxy servers with the IPs `A`, `B` and `C`. The target server is `Y`.
+Without these proxies, the target server will know that you are `X`. But if you use proxies, the server won't know that you are `X`, but that you are `A`, `B` and `C`. In this way, you will be able to use three IPs at once.
+
+To use someone else's IP, you must run a proxy server on a computer on that IP. You then input the Socks5 proxy server `IP:Port`. Such as "192.168.1.1:1080". The proxy **must support UDP** to be compatible.
+
+## How do I get Socks5 Proxies?
+You either set up your own proxy servers or you buy proxies. If you buy proxies, you must make sure they support the UDP protocol (the easiest way it to send an email to the company selling the proxies).
+To set up a proxy server, you can download a proxy server software and run it on VPS machines or your own virtual machines (which run a VPN to get a new IP). Read the following tutorial.
 
 ## Convert rdp to socks5 server
 1. **Disable the firewall** 
