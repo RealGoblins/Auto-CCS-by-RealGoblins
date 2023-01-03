@@ -1,4 +1,4 @@
-# Auto-CCS by RealGoblins (5 dls)
+# Auto-CCS by RealGoblins
 
 ## Download
 https://github.com/RealGoblins/Auto-CCS-by-RealGoblins/raw/main/Auto-CCS%20by%20RealGoblins.exe 
@@ -10,6 +10,14 @@ This is a Mesa3D software renderer which you'll need if you don't have a GPU.
 1. Download: https://mega.nz/file/JU4jXY6L#_vvkdcRsyxkebC-b0GPbFJiwe41Gz75ke2N-rYQ8XDA
 2. Right click -> Extract files
 3. Move (drag-drop) `Auto-CCS by RealGoblins.exe` to `VPS_files`
+
+## Pricing
+
+| Max bot count | Gems profit per 30 days | Seed profit per 30 days | DL profit per 30 days (200k gems/DL & 50 seeds/WL) | RG price (5%) |
+| ------------- | ----------------------- | ----------------------- | -------------------------------------------------- | ------------- |
+| 5             | 39 600 000              | 216 000                 | 241                                                | 12 (BRONZE)   |
+| 15            | 118 800 000             | 648 000                 | 724                                                | 36 (SILVER)   |
+| 50            | 396 000 000             | 2 160 000               | 2 412                                              | 120 (GOLD)    |
 
 # Tutorials
 
