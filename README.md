@@ -13,7 +13,7 @@ This is a Mesa3D software renderer which you'll need if you don't have a GPU.
 
 ## Pricing
 
-| Max bot count | Gems profit per 30 days | Seed profit per 30 days | DL profit per 30 days (200k gems/DL & 50 seeds/WL) | RG price (5%) |
+| Max bot count | Gems profit per 30 days | Seed profit per 30 days | DL profit per 30 days (200k gems/DL & 50 seeds/WL) | RG price (4%) |
 | ------------- | ----------------------- | ----------------------- | -------------------------------------------------- | ------------- |
 | 5             | 39 600 000              | 216 000                 | 241                                                | 10 (BRONZE)   |
 | 15            | 118 800 000             | 648 000                 | 724                                                | 29 (SILVER)   |
