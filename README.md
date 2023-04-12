@@ -1,8 +1,6 @@
-# Auto-CCS by RealGoblins
-
-## Download
-https://github.com/RealGoblins/Auto-CCS-by-RealGoblins/raw/main/Auto-CCS%20by%20RealGoblins.exe 
-
+# Download
+## [Click to get download link](https://sub2unlock.com/JmCT5)
+<br><br/>
 ## VPS files (optional)
 Only if you're running the application on a *VPS/VDS/RDP* you will need additional \*.dll files.
 Download the following files and place them **in the same directory as the app**.
