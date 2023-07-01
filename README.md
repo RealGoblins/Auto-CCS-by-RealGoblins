@@ -15,11 +15,13 @@ https://aka.ms/vs/17/release/vc_redist.x64.exe
 
 ## Pricing
 
-| Max bot count | Gems profit per 30 days | Seed profit per 30 days | DL profit per 30 days (200k gems/DL & 50 seeds/WL) | RG price (4%) |
-| ------------- | ----------------------- | ----------------------- | -------------------------------------------------- | ------------- |
-| 5             | 39 600 000              | 216 000                 | 241                                                | 10 (BRONZE)   |
-| 15            | 118 800 000             | 648 000                 | 724                                                | 29 (SILVER)   |
-| 50            | 396 000 000             | 2 160 000               | 2 412                                              | 95 (GOLD)    |
+1 DL per bot (monthly)
+
+|   Bot count   | Gems profit per 30 days | Seed profit per 30 days | DL profit per 30 days (200k gems/DL & 50 seeds/WL) |
+| ------------- | ----------------------- | ----------------------- | -------------------------------------------------- | 
+| 5             | 39 600 000              | 216 000                 | 241                                                | 
+| 15            | 118 800 000             | 648 000                 | 724                                                |
+| 50            | 396 000 000             | 2 160 000               | 2 412                                              |
 
 # Tutorials
 
@@ -75,6 +77,7 @@ Format:
     "autoBuyItem": "world_lock_10_pack", // <the item name in the gt store>. This item will be bought using the earned gems and will be dropped to the storage
     "autoBuyItemAmount": 1, // 1 or 2. This is the amount of the *autoBuyItem* that will be bought at once.
     "autoTrash": true, // true or false. This decides whether the bot will auto trash farming drops, such as earth or wind essence
+    "autoBuyClothes": true, // true or false. This decides whether the bot will auto buy 1 rare clothes pack (500 gems), in order to prevent getting "detected"
     "storageWorldName": "YOURSTORAGEWORLDHERE", // <Your storage>.The bot will drop the profit here (seeds + store items). The storage MUST be made of display boxes.
     "webhookBots": "", // <WEBHOOK FOR BOT STATUS>. This is optional. A summary for the progress of all bots will be shown here.
     "webhookEvents": "", // <WEBHOOK FOR BOT EVENTS>. This is optional. Bot events, such as disconnections and profit drops will be logged here.
@@ -98,6 +101,7 @@ Example:
     "autoBuyItem": "world_lock_10_pack",
     "autoBuyItemAmount": 1,
     "autoTrash": true,
+    "autoBuyClothes": true,
     "storageWorldName": "hqks71axd3blqnxo3m9",
     "webhookBots": "https://discord.com/api/webhooks/1143939598605783012/3C16CrHN3bnx-j8In7X0FskxsvABg6lmqpd5K9ev4QvwX9WAjHQFrxlR5eSRkNTuzOw3Z",
     "webhookEvents": "",
