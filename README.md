@@ -101,7 +101,7 @@ Format:
 
 Example:
 
-```bot1.farmfcfg```
+```bot1.farmcfg```
 
 ```json
 {
