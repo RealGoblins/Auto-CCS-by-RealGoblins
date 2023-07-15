@@ -115,6 +115,14 @@ Example:
     "storageWorldName": "hqks71axd3blqnxo3m9",
     "webhookBots": "https://discord.com/api/webhooks/1143939598605783012/3C16CrHN3bnx-j8In7X0FskxsvABg6lmqpd5K9ev4QvwX9WAjHQFrxlR5eSRkNTuzOw3Z",
     "webhookEvents": "",
+    "itemWhitelist": [1828, 4288], 
+    "switchAccountAfterDelay": true, 
+    "switchAccountDelayMinutes": 180, 
+    "switchAccountWhenBanned": true,
+    "backupAccounts": [ 
+        "jxeutb284asf:goblins123",
+        "ino3nz92nsldx:goblins123"
+    ],
     "worlds": [
         "2JWCWWHVJJQMYVH5|RGFRM23",
         "5VJKKSM9ULC3OJIM|RGFRM23",
