@@ -2,12 +2,13 @@
 ## [Click to get download link](https://sub2unlock.com/JmCT5)
 <br><br/>
 ## VPS files (optional)
-Only if you're running the application on a *VPS/VDS/RDP* you will need additional \*.dll files.
-Download the following files and place them **in the same directory as the app**.
-This is a Mesa3D software renderer which you'll need if you don't have a GPU.
 1. Download: https://mega.nz/file/JU4jXY6L#_vvkdcRsyxkebC-b0GPbFJiwe41Gz75ke2N-rYQ8XDA
 2. Right click -> Extract files
 3. Move (drag-drop) `Auto-CCS by RealGoblins.exe` to `VPS_files`
+
+Only if you're running the application on a *VPS/VDS/RDP* you will need additional \*.dll files.
+Download the following files and place them **in the same directory as the app**.
+This is a Mesa3D software renderer which you'll need if you don't have a GPU.
 
 ## VC Redist x64 (optional)
 If the app doesn't start, or gives errors such as: mcsv140.dll not found, download and install the following. Note: Only do this if you have already installed the VPS files.
@@ -16,6 +17,7 @@ https://aka.ms/vs/17/release/vc_redist.x64.exe
 ## Pricing
 
 1 DL per bot (monthly)
+1 license = 1 bot
 
 |   Bot count   | Gems profit per 30 days | Seed profit per 30 days | DL profit per 30 days (200k gems/DL & 50 seeds/WL) |
 | ------------- | ----------------------- | ----------------------- | -------------------------------------------------- | 
@@ -49,7 +51,7 @@ The bot list is imported from left section of the application using the top-left
 
 Format:
 ```
-{GrowID}:{Password}:{farm config (optional)}
+{GrowID}:{Password}:{farm config (optional)}:{RID for guest logjn (optional)}:{hash for guest logjn (optional)}
 ```
 
 Example: 
@@ -75,12 +77,20 @@ Format:
     "autoBanIgnore": [], // ['Growid1' , 'player2']. Users to ignore when using the auto-ban feature.
     "autoBuyFromStore": true, // true or false. This will auto-buy from the store and drop to the storage.
     "autoBuyItem": "world_lock_10_pack", // <the item name in the gt store>. This item will be bought using the earned gems and will be dropped to the storage
-    "autoBuyItemAmount": 1, // 1 or 2. This is the amount of the *autoBuyItem* that will be bought at once.
+    "autoBuyItemAmount": 1, // 1 or 2 or more. This is the amount of the *autoBuyItem* that will be bought at once.
     "autoTrash": true, // true or false. This decides whether the bot will auto trash farming drops, such as earth or wind essence
     "autoBuyClothes": true, // true or false. This decides whether the bot will auto buy 1 rare clothes pack (500 gems), in order to prevent getting "detected"
     "storageWorldName": "YOURSTORAGEWORLDHERE", // <Your storage>.The bot will drop the profit here (seeds + store items). The storage MUST be made of display boxes.
     "webhookBots": "", // <WEBHOOK FOR BOT STATUS>. This is optional. A summary for the progress of all bots will be shown here.
     "webhookEvents": "", // <WEBHOOK FOR BOT EVENTS>. This is optional. Bot events, such as disconnections and profit drops will be logged here.
+    "itemWhitelist": [], // Optional. These itemIDs will not be trashed, and will be dropped to the storage.
+    "switchAccountAfterDelay": true, // true or false. This will switch to a new account after a specified uptime. It will loop forever.
+    "switchAccountDelayMinutes": 180, // a number specifing minutes before switching to a new account from the backupAccounts list.
+    "switchAccountWhenBanned": true, // true or false. This will switch to a backup account when the current one is suspended.
+    "backupAccounts": [ // This is optional. Backup accounts will be used when an account is suspended or for switching after a specified uptime.
+        "testacc1:password",
+        "testacc2:password"
+    ],
     "worlds": [ // World|ID
         "testworld1|id", 
         "testworld2|id",
